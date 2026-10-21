@@ -1,0 +1,14 @@
+{
+  "name": "kase-lens-final",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "KASE Lens – real local Qwen3 RAG research assistant with historical market evidence",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.js",
+    "build": "node build.mjs"
+  },
+  "engines": {"node": ">=20"}
+}
