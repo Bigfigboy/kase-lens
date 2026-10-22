@@ -1,14 +1,17 @@
 {
-  "name": "kase-lens-final",
-  "version": "1.0.0",
+  "name": "kase-lens-public-ai",
+  "version": "1.1.0",
   "type": "module",
   "private": true,
-  "description": "KASE Lens – real local Qwen3 RAG research assistant with historical market evidence",
+  "description": "KASE Lens — public demo with source-grounded AI Gateway endpoint",
   "scripts": {
-    "dev": "node server.mjs",
-    "start": "node server.mjs",
-    "test": "node --test tests/*.test.js",
-    "build": "node build.mjs"
+    "build": "node build.mjs",
+    "test": "node --test tests/*.test.js"
   },
-  "engines": {"node": ">=20"}
+  "dependencies": {
+    "ai": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }
